@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Gaji_Diki">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaji Karyawan"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#041DA8"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Karyawan"
+        />
+    <EditText
+        android:id="@+id/edGajiP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gaji Pokok"
+        />
+    <EditText
+        android:id="@+id/edTunjangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tunjangan Jabatan"
+        />
+    <EditText
+        android:id="@+id/edKerja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hari Kerja"
+        android:layout_marginBottom="20dp"
+        />
+   <Button
+       android:id="@+id/btHitung"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Hitung Gaji"
+       android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edMakan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tunjangan Makan"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/edTransportasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tunjangan Transportasi"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/edGajiK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gaji Kotor"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/edGajiB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gaji Bersih"
+        android:layout_marginBottom="20dp"/>
+
+
+
+</LinearLayout>
